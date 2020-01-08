@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.google.com"></form>
+    Name: <input type="text" placeholder="John" name="email" required>
+    Surname:<input type="text" placeholder="Smith"><br>
+
+    Gender:
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="Gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="Gender" value="other">
+    <label for="other">Other</label><br>
+
+    Email:<input type="text" placeholder="Your email" name="email">
+    Password: <input type="password" placeholder="Your password" id="password" required minlength="5"
+        maxlength="10"><br>
+
+    Birthday:
+    <select name="Month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+    </select>
+    <select name="Day">
+        <option value="21">21</option>
+        <option value="22">22</option>
+    </select>
+    <select name="Year">
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+    </select> <br>
+    <label for="termsAndConditions">I agree to terms and conditions</label>
+    <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted"><br>
+
+    <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
